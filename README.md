@@ -1,8 +1,5 @@
 # test-deploy
 
-Deployment test repository.
+Test deployment pipeline
 
-## Mirror Test
-
-This commit was pushed to Forgejo and auto-mirrored to GitHub.
-Timestamp: 2026-11-12T12:49:29+08:00
+Last webhook test: 2026-11-12 13:29:20 CST
