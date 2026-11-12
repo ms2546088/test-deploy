@@ -1,0 +1,12 @@
+when:
+  - event: [push, manual]
+
+steps:
+  - name: test
+    image: alpine:3.20
+    commands:
+      - echo "🚀 CI Pipeline running for test-deploy"
+      - echo "Branch: ${CI_COMMIT_BRANCH}"
+      - echo "Commit: ${CI_COMMIT_SHA}"
+      - date
+      - echo "✅ Pipeline completed successfully"
